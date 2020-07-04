@@ -163,18 +163,20 @@ public function down()
 ```
 
 Apply the changes to MySQL
+
 ```console
-$ php artisan migrate```
+$ php artisan migrate
+```
 
 ## Create Laravel Controller
+
 ```console
 $ php artisan make:controller ContactsController
 ```
+
 Edit app/Http/Controllers/ContactsController.php
 
-```console
-// CHECK FULL FILE ON GIT REPOSITORY
-
+```php
 ...
 
 public function add() {
